@@ -2,11 +2,10 @@ import { Banner, Categories, Featured, Navbar, Footer } from "@components"
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-gray-100">
       <Navbar />
       <Banner />
       <Featured />
-      <Categories />
       <Categories />
       <Footer />
     </div>
