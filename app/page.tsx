@@ -1,7 +1,15 @@
+import { Banner, Categories, Featured, Navbar, Footer } from "@components"
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Navbar />
+      <Banner />
+      <Featured />
+      <Categories />
+      <Categories />
+      <Footer />
+    </div>
   )
 }
 

@@ -7,6 +7,7 @@ import Cart from "./Cart";
 import Categories from "./Categories";
 import Checkout from "./Checkout";
 import Featured from "./Featured";
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -17,5 +18,6 @@ export {
     Cart,
     Categories,
     Checkout,
-    Featured
+    Featured,
+    Footer,
 }
