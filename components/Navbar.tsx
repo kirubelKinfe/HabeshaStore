@@ -85,10 +85,14 @@ const Navbar = () => {
                 </div>
 
             </div>
-            <div className="subNavbar">
-                <div className='menu'>Menu</div>
+            <div className="w-full px-10 sticky left-0 right-0 z-50 bg-gray-700 flex items-center gap-3 overflow-hidden">
+                <p className='text-white'>Menu</p>
                 {categories.map((category) => (
-                    <Link key={category._id} href={category.link}>{category.name}</Link>
+                    <Link
+                        key={category._id}
+                        href={category.link}
+                        className="text-white py-4 px-1 border border-gray-700 hover:border-x-white"
+                    >{category.name}</Link>
                 ))}
             </div>
             {false && <Cart />}
